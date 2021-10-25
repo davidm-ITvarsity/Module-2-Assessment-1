@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: #111218;
+}
+
+/*============ HEADER ============*/
+
+header {
+  padding: 1rem 8%;
+}
+
+.logo img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-around;
+}
+
+nav a {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #6f789b;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fd7f18;
+  transition: all 0.2s ease;
+}
+
+/*============ MAP ============*/
+
+main {
+  padding: 2rem 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  width: 80%;
+}
+
+/*============ BOTTOM TABS ============*/
+
+#tabs-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  background: #222533;
+  position: relative;
+  bottom: 0;
+}
+
+#tabs-bottom a {
+  text-decoration: none;
+  color: #6f789b;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+#tabs-bottom a:hover {
+  color: #fd7f18;
+  transition: all 0.2s ease;
+}
+
+/*============ ANIMALS INDEX ============*/
+
+.animal-box {
+  margin-inline: 8%;
+}
+
+.animal-box a {
+  text-decoration: none;
+}
+
+.container-animals {
+  padding: 2rem 0;
+}
+
+.animal {
+  background: rgba(255, 123, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.animal:hover {
+  translate: 0 -10px;
+  background: rgba(255, 123, 0, 0.9);
+}
+
+.animal-info {
+  margin-left: 1.4rem;
+  color: #eee;
+}
+
+/*============ WEATHER INDEX ============*/
+
+.table-weather {
+  margin-left: 10%;
+  padding-bottom: 3rem;
+  color: #eee;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-main h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fd7f18;
+}
+
+.weather-main p {
+  font-size: 1.6rem;
+  color: #6f789b;
+}
+
+img.info-box-weather-icon {
+  height: 30px;
+  width: 30px !important;
+  margin: 10px;
+  float: left;
+}
+
+h1.info-box-weather-icon {
+  font-size: 65px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid #131313;
+}
+
+/*============ FORM INDEX ============*/
+
+input {
+  width: 100%;
+  height: 40px;
+  margin: 12px 0;
+  border: 1px solid #929292;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 12px 0;
+  border: 1px solid #929292;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(139, 73, 34);
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0;
+  padding: 11px 0;
+}
+
+#info-box-full {
+  padding-top: 1.4rem;
+  margin-inline: 8%;
+  color: #eee;
+}
+
+#info-box-full h3,
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*============ ANIMAL INFO ============*/
+
+.info-animal-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 8%;
+}
+
+.info-animal-page img {
+  width: 750px;
+  border: 5px solid #c0fd18;
+}
+
+.info-animal-page h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fd7f18;
+  margin: 1rem 0;
+}
+
+.info-animal-page p {
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+/*============ PLACES INFO ============*/
+
+.info-animal-page ul {
+  padding: 1rem 0;
+}
+
+.info-animal-page ul li {
+  color: #eee;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  text-align: center;
+}
